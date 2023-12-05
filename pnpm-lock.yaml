@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@blocknote/core':
-    specifier: ^0.10.0
+    specifier: ^0.9.4
     version: 0.10.0
   '@blocknote/react':
-    specifier: ^0.10.0
-    version: 0.10.0(@tiptap/pm@2.1.13)(@types/react@18.2.38)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.9.4
+    version: 0.9.4(@tiptap/pm@2.1.13)(@types/react@18.2.38)(react-dom@18.2.0)(react@18.2.0)
   '@clerk/clerk-react':
     specifier: ^4.28.1
     version: 4.28.1(react@18.2.0)
@@ -819,7 +819,7 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@blocknote/core@0.10.0:
+  /@blocknote/core@0.9.4:
     resolution: {integrity: sha512-8IJvD97762qviBcjoN+Vm+sSvBiaHeMu/ylw4BwQnYzZXBZHmhtVkWjBM4zXwY5hQCQIo4qcrvtkwyOIqiE54Q==}
     dependencies:
       '@emotion/cache': 11.11.0
@@ -868,13 +868,13 @@ packages:
       - supports-color
     dev: false
 
-  /@blocknote/react@0.10.0(@tiptap/pm@2.1.13)(@types/react@18.2.38)(react-dom@18.2.0)(react@18.2.0):
+  /@blocknote/react@0.9.4(@tiptap/pm@2.1.13)(@types/react@18.2.38)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-03cwbaI/Bau0pVxyv8ZhhKgX1M2av7C/XvUe3lS7yrmNvWlrvAhLA3LU8+oVdVwezl6KYliOU9Q3hec0uAGhkg==}
     peerDependencies:
       react: ^18
       react-dom: ^18
     dependencies:
-      '@blocknote/core': 0.10.0
+      '@blocknote/core': 0.9.4
       '@emotion/react': 11.11.1(@types/react@18.2.38)(react@18.2.0)
       '@mantine/core': 5.10.5(@emotion/react@11.11.1)(@mantine/hooks@5.10.5)(@types/react@18.2.38)(react-dom@18.2.0)(react@18.2.0)
       '@mantine/hooks': 5.10.5(react@18.2.0)
