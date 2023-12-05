@@ -1,8 +1,7 @@
 "use client";
 
 import {
-  BlockNoteEditor,
-  PartialBlock
+  BlockNoteEditor
 } from "@blocknote/core";
 import "@blocknote/core/style.css";
 import {
@@ -39,7 +38,7 @@ const Editor = ({
     editable,
     initialContent: 
       initialContent 
-      ? JSON.parse(initialContent) as PartialBlock[] 
+      ? JSON.parse(initialContent) as [] 
       : undefined,
     onEditorContentChange: (editor) => {
       onChange(JSON.stringify(editor.topLevelBlocks, null, 2));
